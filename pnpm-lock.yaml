@@ -58,8 +58,8 @@ importers:
         specifier: ^8.21.3
         version: 8.21.3(vue@3.5.25(typescript@5.8.3))
       '@tanstack/vue-virtual':
-        specifier: ^3.13.13
-        version: 3.13.13(vue@3.5.25(typescript@5.8.3))
+        specifier: ^3.13.15
+        version: 3.13.15(vue@3.5.25(typescript@5.8.3))
       '@tiptap/core':
         specifier: ^3.14.0
         version: 3.14.0(@tiptap/pm@3.14.0)
@@ -166,8 +166,8 @@ importers:
         specifier: ^1.8.0
         version: 1.8.0
       motion-v:
-        specifier: ^1.7.3
-        version: 1.7.3(@vueuse/core@14.1.0(vue@3.5.25(typescript@5.8.3)))(react@19.2.0)(vue@3.5.25(typescript@5.8.3))
+        specifier: ^1.7.5
+        version: 1.7.5(@vueuse/core@14.1.0(vue@3.5.25(typescript@5.8.3)))(vue@3.5.25(typescript@5.8.3))
       ohash:
         specifier: ^2.0.11
         version: 2.0.11
@@ -224,7 +224,7 @@ importers:
         version: 1.7.1
       zod:
         specifier: ^3.24.0 || ^4.0.0
-        version: 4.2.1
+        version: 4.3.4
     devDependencies:
       '@nuxt/eslint-config':
         specifier: ^1.12.1
@@ -242,8 +242,8 @@ importers:
         specifier: ^2.4.6
         version: 2.4.6
       ai:
-        specifier: ^6.0.3
-        version: 6.0.3(zod@4.2.1)
+        specifier: ^6.0.6
+        version: 6.0.6(zod@4.3.4)
       embla-carousel:
         specifier: ^8.6.0
         version: 8.6.0
@@ -290,14 +290,14 @@ importers:
   docs:
     dependencies:
       '@ai-sdk/gateway':
-        specifier: ^3.0.2
-        version: 3.0.2(zod@4.2.1)
+        specifier: ^3.0.5
+        version: 3.0.5(zod@4.3.4)
       '@ai-sdk/mcp':
-        specifier: ^1.0.1
-        version: 1.0.1(zod@4.2.1)
+        specifier: ^1.0.2
+        version: 1.0.2(zod@4.3.4)
       '@ai-sdk/vue':
-        specifier: ^3.0.3
-        version: 3.0.3(vue@3.5.25(typescript@5.8.3))(zod@4.2.1)
+        specifier: ^3.0.6
+        version: 3.0.6(vue@3.5.25(typescript@5.8.3))(zod@4.3.4)
       '@iconify-json/logos':
         specifier: ^1.2.10
         version: 1.2.10
@@ -312,7 +312,7 @@ importers:
         version: 1.2.37
       '@modelcontextprotocol/sdk':
         specifier: ^1.25.1
-        version: 1.25.1(hono@4.11.1)(zod@4.2.1)
+        version: 1.25.1(hono@4.11.1)(zod@4.3.4)
       '@nuxt/content':
         specifier: ^3.10.0
         version: 3.10.0(better-sqlite3@12.5.0)(magicast@0.5.1)(valibot@1.2.0(typescript@5.8.3))
@@ -323,8 +323,8 @@ importers:
         specifier: workspace:*
         version: link:..
       '@nuxtjs/mcp-toolkit':
-        specifier: ^0.6.0
-        version: 0.6.0(hono@4.11.1)(magicast@0.5.1)(zod@4.2.1)
+        specifier: ^0.6.1
+        version: 0.6.1(hono@4.11.1)(magicast@0.5.1)(zod@4.3.4)
       '@nuxtjs/plausible':
         specifier: ^2.0.1
         version: 2.0.1(magicast@0.5.1)
@@ -332,11 +332,11 @@ importers:
         specifier: ^22.0.1
         version: 22.0.1
       '@regle/core':
-        specifier: ^1.14.7
-        version: 1.14.7(vue@3.5.25(typescript@5.8.3))
+        specifier: ^1.16.0
+        version: 1.16.0(vue@3.5.25(typescript@5.8.3))
       '@regle/rules':
-        specifier: ^1.14.7
-        version: 1.14.7(vue@3.5.25(typescript@5.8.3))
+        specifier: ^1.16.0
+        version: 1.16.0(vue@3.5.25(typescript@5.8.3))
       '@tiptap/extension-emoji':
         specifier: ^3.14.0
         version: 3.14.0(@tiptap/core@3.14.0(@tiptap/pm@3.14.0))(@tiptap/pm@3.14.0)(@tiptap/suggestion@3.14.0(@tiptap/core@3.14.0(@tiptap/pm@3.14.0))(@tiptap/pm@3.14.0))(emojibase@17.0.0)
@@ -356,8 +356,8 @@ importers:
         specifier: ^14.1.0
         version: 14.1.0(magicast@0.5.1)(nuxt@4.2.2(@parcel/watcher@2.5.1)(@types/node@24.7.0)(@vue/compiler-sfc@3.5.25)(better-sqlite3@12.5.0)(cac@6.7.14)(db0@0.3.4(better-sqlite3@12.5.0))(eslint@9.39.2(jiti@2.6.1))(ioredis@5.8.2)(lightningcss@1.30.2)(magicast@0.5.1)(meow@13.2.0)(optionator@0.9.4)(rollup@4.52.5)(terser@5.44.0)(typescript@5.8.3)(vite@7.2.7(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.2))(vue-tsc@3.2.1(typescript@5.8.3))(yaml@2.8.2))(vue@3.5.25(typescript@5.8.3))
       ai:
-        specifier: ^6.0.3
-        version: 6.0.3(zod@4.2.1)
+        specifier: ^6.0.6
+        version: 6.0.6(zod@4.3.4)
       better-sqlite3:
         specifier: ^12.5.0
         version: 12.5.0
@@ -371,8 +371,8 @@ importers:
         specifier: ^3.2.0
         version: 3.2.0
       motion-v:
-        specifier: ^1.7.3
-        version: 1.7.3(@vueuse/core@14.1.0(vue@3.5.25(typescript@5.8.3)))(react@19.2.0)(vue@3.5.25(typescript@5.8.3))
+        specifier: ^1.7.5
+        version: 1.7.5(@vueuse/core@14.1.0(vue@3.5.25(typescript@5.8.3)))(vue@3.5.25(typescript@5.8.3))
       nuxt:
         specifier: ^4.2.2
         version: 4.2.2(@parcel/watcher@2.5.1)(@types/node@24.7.0)(@vue/compiler-sfc@3.5.25)(better-sqlite3@12.5.0)(cac@6.7.14)(db0@0.3.4(better-sqlite3@12.5.0))(eslint@9.39.2(jiti@2.6.1))(ioredis@5.8.2)(lightningcss@1.30.2)(magicast@0.5.1)(meow@13.2.0)(optionator@0.9.4)(rollup@4.52.5)(terser@5.44.0)(typescript@5.8.3)(vite@7.2.7(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.2))(vue-tsc@3.2.1(typescript@5.8.3))(yaml@2.8.2)
@@ -413,17 +413,17 @@ importers:
         specifier: ^1.7.1
         version: 1.7.1
       zod:
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.3.4
+        version: 4.3.4
 
   playgrounds/nuxt:
     dependencies:
       '@ai-sdk/gateway':
-        specifier: ^3.0.2
-        version: 3.0.2(zod@4.2.1)
+        specifier: ^3.0.5
+        version: 3.0.5(zod@4.3.4)
       '@ai-sdk/vue':
-        specifier: ^3.0.3
-        version: 3.0.3(vue@3.5.25(typescript@5.8.3))(zod@4.2.1)
+        specifier: ^3.0.6
+        version: 3.0.6(vue@3.5.25(typescript@5.8.3))(zod@4.3.4)
       '@iconify-json/lucide':
         specifier: ^1.2.82
         version: 1.2.82
@@ -443,14 +443,14 @@ importers:
         specifier: ^3.14.0
         version: 3.14.0(@tiptap/core@3.14.0(@tiptap/pm@3.14.0))
       ai:
-        specifier: ^6.0.3
-        version: 6.0.3(zod@4.2.1)
+        specifier: ^6.0.6
+        version: 6.0.6(zod@4.3.4)
       nuxt:
         specifier: ^4.2.2
         version: 4.2.2(@parcel/watcher@2.5.1)(@types/node@24.7.0)(@vue/compiler-sfc@3.5.25)(better-sqlite3@12.5.0)(cac@6.7.14)(db0@0.3.4(better-sqlite3@12.5.0))(eslint@9.39.2(jiti@2.6.1))(ioredis@5.8.2)(lightningcss@1.30.2)(magicast@0.5.1)(meow@13.2.0)(optionator@0.9.4)(rollup@4.52.5)(terser@5.44.0)(typescript@5.8.3)(vite@7.2.7(@types/node@24.7.0)(jiti@2.6.1)(lightningcss@1.30.2)(terser@5.44.0)(yaml@2.8.2))(vue-tsc@3.2.1(typescript@5.8.3))(yaml@2.8.2)
       zod:
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.3.4
+        version: 4.3.4
     devDependencies:
       typescript:
         specifier: 5.8.3
@@ -477,8 +477,8 @@ importers:
         specifier: ^4.6.3
         version: 4.6.3(vue@3.5.25(typescript@5.8.3))
       zod:
-        specifier: ^4.2.1
-        version: 4.2.1
+        specifier: ^4.3.4
+        version: 4.3.4
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.2
@@ -495,30 +495,30 @@ importers:
 
 packages:
 
-  '@ai-sdk/gateway@3.0.2':
-    resolution: {integrity: sha512-giJEg9ob45htbu3iautK+2kvplY2JnTj7ir4wZzYSQWvqGatWfBBfDuNCU5wSJt9BCGjymM5ZS9ziD42JGCZBw==}
+  '@ai-sdk/gateway@3.0.5':
+    resolution: {integrity: sha512-AtxA1wcoKTHr9uFoC5KZEXqJP4SMW4j3VbcliUECUYssbWbePJ9+b3AaCny1lxf1xhDK9EIyAgBOKhXoQSr9nA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/mcp@1.0.1':
-    resolution: {integrity: sha512-4ejg3Nol3ma7r8Otj9m05+K0mpCoGq1gY1vp4IMS23uEflFHPRuZqq4PIogRZrD+r9FlZmbmwnxhJEcEob22nw==}
+  '@ai-sdk/mcp@1.0.2':
+    resolution: {integrity: sha512-1ukAZDVyRA968d/qPa8RA+LiXf2QFbEbZrlW/1/D8y1a1i8dw4JbsfeiSk3FsvPYkjojhCCouaz3dkiWE8hlaQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/provider-utils@4.0.1':
-    resolution: {integrity: sha512-de2v8gH9zj47tRI38oSxhQIewmNc+OZjYIOOaMoVWKL65ERSav2PYYZHPSPCrfOeLMkv+Dyh8Y0QGwkO29wMWQ==}
+  '@ai-sdk/provider-utils@4.0.2':
+    resolution: {integrity: sha512-KaykkuRBdF/ffpI5bwpL4aSCmO/99p8/ci+VeHwJO8tmvXtiVAb99QeyvvvXmL61e9Zrvv4GBGoajW19xdjkVQ==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/provider@3.0.0':
-    resolution: {integrity: sha512-m9ka3ptkPQbaHHZHqDXDF9C9B5/Mav0KTdky1k2HZ3/nrW2t1AgObxIVPyGDWQNS9FXT/FS6PIoSjpcP/No8rQ==}
+  '@ai-sdk/provider@3.0.1':
+    resolution: {integrity: sha512-2lR4w7mr9XrydzxBSjir4N6YMGdXD+Np1Sh0RXABh7tWdNFFwIeRI1Q+SaYZMbfL8Pg8RRLcrxQm51yxTLhokg==}
     engines: {node: '>=18'}
 
-  '@ai-sdk/vue@3.0.3':
-    resolution: {integrity: sha512-Hedm7dFFTHuvCYVXANF2dHF8bQUXIuzstZmAgZX1ImTiUU0FmJTfdif2yTkZLvv6JXs2fROJcR39VgPAlM7DMg==}
+  '@ai-sdk/vue@3.0.6':
+    resolution: {integrity: sha512-YNBxkUMotTGZiJsSbSdemwITQqqIerBD+mqwqpGLAUuKf2fY3RE6xqLgn2SiXfh9e2f05Y0WlAZ254X2rjyYdg==}
     engines: {node: '>=18'}
     peerDependencies:
       vue: ^3.3.4
@@ -1711,10 +1711,10 @@ packages:
   '@nuxtjs/color-mode@3.5.2':
     resolution: {integrity: sha512-cC6RfgZh3guHBMLLjrBB2Uti5eUoGM9KyauOaYS9ETmxNWBMTvpgjvSiSJp1OFljIXPIqVTJ3xtJpSNZiO3ZaA==}
 
-  '@nuxtjs/mcp-toolkit@0.6.0':
-    resolution: {integrity: sha512-ozoPO+y7BjzU0K//WhzkOgZDtyf3oWnJ3ZXZwBOik+H+zbN5G8+TNex43Vo4T7243I2+au5ouXqZ9lYk+LwOIw==}
+  '@nuxtjs/mcp-toolkit@0.6.1':
+    resolution: {integrity: sha512-pcHpOW/NYSuXIfu/PJNNVqxvVc3qLwqCvAWTmJ+WDu3TMTixb0barzaF2lV6rg8IYg9wi3Y2Hs2JRpVEaLYXOg==}
     peerDependencies:
-      agents: '>=0.2.32'
+      agents: '>=0.3.3'
       zod: ^4.1.13
     peerDependenciesMeta:
       agents:
@@ -2168,8 +2168,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@regle/core@1.14.7':
-    resolution: {integrity: sha512-1G34NhTwjLa/l9ZFI5qKCnYVYV/Ab3Na+Zsy8uLQwvEdbOWqbknP3YO2TFbRqixO+Nu+REmEnQnf+LAVfjPiew==}
+  '@regle/core@1.16.0':
+    resolution: {integrity: sha512-4xmHlrV1MbrPKJWp1BGIcoZieGPNGqeVUctWJXhSIGFO/KykpIC44dlNPgcoL/DVYFvMxB+IQIt0i6pZtlNRuw==}
     peerDependencies:
       pinia: '>=2.2.5'
       vue: '>=3.3.0'
@@ -2177,8 +2177,8 @@ packages:
       pinia:
         optional: true
 
-  '@regle/rules@1.14.7':
-    resolution: {integrity: sha512-0ZvGMscrCp1Pji/zGuCgYQ3D9ar7JbrcTEpkRO/qM+AWYWH1dRkcs5PYELo5+I9i6e16h3fDNwwWEMdVBfH4Og==}
+  '@regle/rules@1.16.0':
+    resolution: {integrity: sha512-xSgIsZLfogGqPzIWB3tyHDXkBjcUpTM1dC9BwCAKF2J6Kngsuv7ldxoRtABuMwW/W9gFCZH7iVXHZi5pQV7PXw==}
 
   '@release-it/conventional-changelog@10.0.4':
     resolution: {integrity: sha512-pU1JkAZBHVk9u0O9CZcaLsqSZHWu0s9WNIFVUq0M9r/WlLpJvrCiSH2OCLo5XyOnWacdMvBjijm+kl6m36SdrA==}
@@ -2538,9 +2538,6 @@ packages:
     resolution: {integrity: sha512-Qig2Wso7gPkU1PtXwFzndh+CTRzrIFxVGqv6eCetjU7YqxlHItj+GvQYwYTppCRgAPawtRN/4AJcEgB9xDHGug==}
     hasBin: true
 
-  '@standard-schema/spec@1.0.0':
-    resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
-
   '@standard-schema/spec@1.1.0':
     resolution: {integrity: sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==}
 
@@ -2650,8 +2647,8 @@ packages:
     resolution: {integrity: sha512-ldZXEhOBb8Is7xLs01fR3YEc3DERiz5silj8tnGkFZytt1abEvl/GhUmCE0PMLaMPTa3Jk4HbKmRlHmu+gCftg==}
     engines: {node: '>=12'}
 
-  '@tanstack/virtual-core@3.13.13':
-    resolution: {integrity: sha512-uQFoSdKKf5S8k51W5t7b2qpfkyIbdHMzAn+AMQvHPxKUPeo1SsGaA4JRISQT87jm28b7z8OEqPcg1IOZagQHcA==}
+  '@tanstack/virtual-core@3.13.15':
+    resolution: {integrity: sha512-8cG3acM2cSIm3h8WxboHARAhQAJbYUhvmadvnN8uz8aziDwrbYb9KiARni+uY2qrLh49ycn+poGoxvtIAKhjog==}
 
   '@tanstack/vue-table@8.21.3':
     resolution: {integrity: sha512-rusRyd77c5tDPloPskctMyPLFEQUeBzxdQ+2Eow4F7gDPlPOB1UnnhzfpdvqZ8ZyX2rRNGmqNnQWm87OI2OQPw==}
@@ -2659,8 +2656,8 @@ packages:
     peerDependencies:
       vue: '>=3.2'
 
-  '@tanstack/vue-virtual@3.13.13':
-    resolution: {integrity: sha512-Cf2xIEE8nWAfsX0N5nihkPYMeQRT+pHt4NEkuP8rNCn6lVnLDiV8rC8IeIxbKmQC0yPnj4SIBLwXYVf86xxKTQ==}
+  '@tanstack/vue-virtual@3.13.15':
+    resolution: {integrity: sha512-f0HwAnnnkKyihtQuBEjX/F5mO9OzUkQiLiDCds26Y11TW+s1894A8D97nk/CO8N5v+sYlLBez8TobV3VDg1Vjw==}
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
 
@@ -3486,8 +3483,8 @@ packages:
     resolution: {integrity: sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==}
     engines: {node: '>= 14'}
 
-  ai@6.0.3:
-    resolution: {integrity: sha512-OOo+/C+sEyscoLnbY3w42vjQDICioVNyS+F+ogwq6O5RJL/vgWGuiLzFwuP7oHTeni/MkmX8tIge48GTdaV7QQ==}
+  ai@6.0.6:
+    resolution: {integrity: sha512-LM0eAMWVn3RTj+0X5O1m/8g+7QiTeWG5aN5FsDbdmCkAQHVg93XxLbljFOLzi0NMjuJgf7fKLKmWoPsrdMyqfw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -4857,20 +4854,6 @@ packages:
   fraction.js@5.3.4:
     resolution: {integrity: sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==}
 
-  framer-motion@12.23.12:
-    resolution: {integrity: sha512-6e78rdVtnBvlEVgu6eFEAgG9v3wLnYEboM8I5O5EXvfKC8gxGQB8wXJdhkMy10iVcn05jl6CNw7/HTsTCfwcWg==}
-    peerDependencies:
-      '@emotion/is-prop-valid': '*'
-      react: ^18.0.0 || ^19.0.0
-      react-dom: ^18.0.0 || ^19.0.0
-    peerDependenciesMeta:
-      '@emotion/is-prop-valid':
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-
   fresh@2.0.0:
     resolution: {integrity: sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==}
     engines: {node: '>= 0.8'}
@@ -5959,15 +5942,14 @@ packages:
   mocked-exports@0.1.1:
     resolution: {integrity: sha512-aF7yRQr/Q0O2/4pIXm6PZ5G+jAd7QS4Yu8m+WEeEHGnbo+7mE36CbLSDQiXYV8bVL3NfmdeqPJct0tUlnjVSnA==}
 
-  motion-dom@12.23.12:
-    resolution: {integrity: sha512-RcR4fvMCTESQBD/uKQe49D5RUeDOokkGRmz4ceaJKDBgHYtZtntC/s2vLvY38gqGaytinij/yi3hMcWVcEF5Kw==}
+  motion-dom@12.23.23:
+    resolution: {integrity: sha512-n5yolOs0TQQBRUFImrRfs/+6X4p3Q4n1dUEqt/H58Vx7OW6RF+foWEgmTVDhIWJIMXOuNNL0apKH2S16en9eiA==}
 
   motion-utils@12.23.6:
     resolution: {integrity: sha512-eAWoPgr4eFEOFfg2WjIsMoqJTW6Z8MTUCgn/GZ3VRpClWBdnbjryiA3ZSNLyxCTmCQx4RmYX6jX1iWHbenUPNQ==}
 
-  motion-v@1.7.3:
-    resolution: {integrity: sha512-lwgrge7Y7FF9LxBxZ//MsSLPPjh4z1yYE9ie236Pa89mRCsBlONXbLcseln6G6LyAG8pt3PpzUxWt2grwMcBAA==}
-    deprecated: deprecate
+  motion-v@1.7.5:
+    resolution: {integrity: sha512-xSqAWoMVAlh0RhdjMCnPMv62mr3yZ2bynXirj2Aq/rDFxiZ69JuIz63aSBCiK87A3wxVqwCZzZE2p4WN875k3Q==}
     peerDependencies:
       '@vueuse/core': '>=10.0.0'
       vue: '>=3.0.0'
@@ -7456,8 +7438,8 @@ packages:
     resolution: {integrity: sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==}
     engines: {node: '>=12.20'}
 
-  type-fest@5.2.0:
-    resolution: {integrity: sha512-xxCJm+Bckc6kQBknN7i9fnP/xobQRsRQxR01CztFkp/h++yfVxUUcmMgfR2HttJx/dpWjS9ubVuyspJv24Q9DA==}
+  type-fest@5.3.1:
+    resolution: {integrity: sha512-VCn+LMHbd4t6sF3wfU/+HKT63C9OoyrSIf4b+vtWHpt2U7/4InZG467YDNMFMR70DdHjAdpPWmw2lzRdg0Xqqg==}
     engines: {node: '>=20'}
 
   type-is@2.0.1:
@@ -8164,43 +8146,43 @@ packages:
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
-  zod@4.2.1:
-    resolution: {integrity: sha512-0wZ1IRqGGhMP76gLqz8EyfBXKk0J2qo2+H3fi4mcUP/KtTocoX08nmIAHl1Z2kJIZbZee8KOpBCSNPRgauucjw==}
+  zod@4.3.4:
+    resolution: {integrity: sha512-Zw/uYiiyF6pUT1qmKbZziChgNPRu+ZRneAsMUDU6IwmXdWt5JwcUfy2bvLOCUtz5UniaN/Zx5aFttZYbYc7O/A==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
 snapshots:
 
-  '@ai-sdk/gateway@3.0.2(zod@4.2.1)':
+  '@ai-sdk/gateway@3.0.5(zod@4.3.4)':
     dependencies:
-      '@ai-sdk/provider': 3.0.0
-      '@ai-sdk/provider-utils': 4.0.1(zod@4.2.1)
+      '@ai-sdk/provider': 3.0.1
+      '@ai-sdk/provider-utils': 4.0.2(zod@4.3.4)
       '@vercel/oidc': 3.0.5
-      zod: 4.2.1
+      zod: 4.3.4
 
-  '@ai-sdk/mcp@1.0.1(zod@4.2.1)':
+  '@ai-sdk/mcp@1.0.2(zod@4.3.4)':
     dependencies:
-      '@ai-sdk/provider': 3.0.0
-      '@ai-sdk/provider-utils': 4.0.1(zod@4.2.1)
+      '@ai-sdk/provider': 3.0.1
+      '@ai-sdk/provider-utils': 4.0.2(zod@4.3.4)
       pkce-challenge: 5.0.0
-      zod: 4.2.1
+      zod: 4.3.4
 
-  '@ai-sdk/provider-utils@4.0.1(zod@4.2.1)':
+  '@ai-sdk/provider-utils@4.0.2(zod@4.3.4)':
     dependencies:
-      '@ai-sdk/provider': 3.0.0
+      '@ai-sdk/provider': 3.0.1
       '@standard-schema/spec': 1.1.0
       eventsource-parser: 3.0.6
-      zod: 4.2.1
+      zod: 4.3.4
 
-  '@ai-sdk/provider@3.0.0':
+  '@ai-sdk/provider@3.0.1':
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/vue@3.0.3(vue@3.5.25(typescript@5.8.3))(zod@4.2.1)':
+  '@ai-sdk/vue@3.0.6(vue@3.5.25(typescript@5.8.3))(zod@4.3.4)':
     dependencies:
-      '@ai-sdk/provider-utils': 4.0.1(zod@4.2.1)
-      ai: 6.0.3(zod@4.2.1)
+      '@ai-sdk/provider-utils': 4.0.2(zod@4.3.4)
+      ai: 6.0.6(zod@4.3.4)
       swrv: 1.1.0(vue@3.5.25(typescript@5.8.3))
       vue: 3.5.25(typescript@5.8.3)
     transitivePeerDependencies:
@@ -9114,7 +9096,7 @@ snapshots:
       - encoding
       - supports-color
 
-  '@modelcontextprotocol/sdk@1.25.1(hono@4.11.1)(zod@4.2.1)':
+  '@modelcontextprotocol/sdk@1.25.1(hono@4.11.1)(zod@4.3.4)':
     dependencies:
       '@hono/node-server': 1.19.7(hono@4.11.1)
       ajv: 8.17.1
@@ -9130,8 +9112,8 @@ snapshots:
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.0
       raw-body: 3.0.1
-      zod: 4.2.1
-      zod-to-json-schema: 3.25.0(zod@4.2.1)
+      zod: 4.3.4
+      zod-to-json-schema: 3.25.0(zod@4.3.4)
     transitivePeerDependencies:
       - hono
       - supports-color
@@ -9707,10 +9689,10 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxtjs/mcp-toolkit@0.6.0(hono@4.11.1)(magicast@0.5.1)(zod@4.2.1)':
+  '@nuxtjs/mcp-toolkit@0.6.1(hono@4.11.1)(magicast@0.5.1)(zod@4.3.4)':
     dependencies:
       '@clack/prompts': 0.11.0
-      '@modelcontextprotocol/sdk': 1.25.1(hono@4.11.1)(zod@4.2.1)
+      '@modelcontextprotocol/sdk': 1.25.1(hono@4.11.1)(zod@4.3.4)
       '@nuxt/kit': 4.2.2(magicast@0.5.1)
       automd: 0.4.2(magicast@0.5.1)
       chokidar: 5.0.0
@@ -9720,7 +9702,7 @@ snapshots:
       satori: 0.18.3
       scule: 1.3.0
       tinyglobby: 0.2.15
-      zod: 4.2.1
+      zod: 4.3.4
     transitivePeerDependencies:
       - '@cfworker/json-schema'
       - hono
@@ -10092,17 +10074,17 @@ snapshots:
       - react-native-b4a
       - supports-color
 
-  '@regle/core@1.14.7(vue@3.5.25(typescript@5.8.3))':
+  '@regle/core@1.16.0(vue@3.5.25(typescript@5.8.3))':
     dependencies:
-      '@standard-schema/spec': 1.0.0
+      '@standard-schema/spec': 1.1.0
       '@vue/devtools-api': 7.7.9
-      type-fest: 5.2.0
+      type-fest: 5.3.1
       vue: 3.5.25(typescript@5.8.3)
 
-  '@regle/rules@1.14.7(vue@3.5.25(typescript@5.8.3))':
+  '@regle/rules@1.16.0(vue@3.5.25(typescript@5.8.3))':
     dependencies:
-      '@regle/core': 1.14.7(vue@3.5.25(typescript@5.8.3))
-      type-fest: 5.2.0
+      '@regle/core': 1.16.0(vue@3.5.25(typescript@5.8.3))
+      type-fest: 5.3.1
     transitivePeerDependencies:
       - pinia
       - vue
@@ -10392,8 +10374,6 @@ snapshots:
 
   '@sqlite.org/sqlite-wasm@3.50.4-build1': {}
 
-  '@standard-schema/spec@1.0.0': {}
-
   '@standard-schema/spec@1.1.0': {}
 
   '@stylistic/eslint-plugin@5.6.1(eslint@9.39.2(jiti@2.6.1))':
@@ -10488,16 +10468,16 @@ snapshots:
 
   '@tanstack/table-core@8.21.3': {}
 
-  '@tanstack/virtual-core@3.13.13': {}
+  '@tanstack/virtual-core@3.13.15': {}
 
   '@tanstack/vue-table@8.21.3(vue@3.5.25(typescript@5.8.3))':
     dependencies:
       '@tanstack/table-core': 8.21.3
       vue: 3.5.25(typescript@5.8.3)
 
-  '@tanstack/vue-virtual@3.13.13(vue@3.5.25(typescript@5.8.3))':
+  '@tanstack/vue-virtual@3.13.15(vue@3.5.25(typescript@5.8.3))':
     dependencies:
-      '@tanstack/virtual-core': 3.13.13
+      '@tanstack/virtual-core': 3.13.15
       vue: 3.5.25(typescript@5.8.3)
 
   '@tiptap/core@3.14.0(@tiptap/pm@3.14.0)':
@@ -11398,13 +11378,13 @@ snapshots:
 
   agent-base@7.1.4: {}
 
-  ai@6.0.3(zod@4.2.1):
+  ai@6.0.6(zod@4.3.4):
     dependencies:
-      '@ai-sdk/gateway': 3.0.2(zod@4.2.1)
-      '@ai-sdk/provider': 3.0.0
-      '@ai-sdk/provider-utils': 4.0.1(zod@4.2.1)
+      '@ai-sdk/gateway': 3.0.5(zod@4.3.4)
+      '@ai-sdk/provider': 3.0.1
+      '@ai-sdk/provider-utils': 4.0.2(zod@4.3.4)
       '@opentelemetry/api': 1.9.0
-      zod: 4.2.1
+      zod: 4.3.4
 
   ajv-formats@3.0.1(ajv@8.17.1):
     optionalDependencies:
@@ -12221,7 +12201,7 @@ snapshots:
 
   dot-prop@10.1.0:
     dependencies:
-      type-fest: 5.2.0
+      type-fest: 5.3.1
 
   dot-prop@5.3.0:
     dependencies:
@@ -12908,14 +12888,6 @@ snapshots:
   forwarded@0.2.0: {}
 
   fraction.js@5.3.4: {}
-
-  framer-motion@12.23.12(react@19.2.0):
-    dependencies:
-      motion-dom: 12.23.12
-      motion-utils: 12.23.6
-      tslib: 2.8.1
-    optionalDependencies:
-      react: 19.2.0
 
   fresh@2.0.0: {}
 
@@ -14241,23 +14213,18 @@ snapshots:
 
   mocked-exports@0.1.1: {}
 
-  motion-dom@12.23.12:
+  motion-dom@12.23.23:
     dependencies:
       motion-utils: 12.23.6
 
   motion-utils@12.23.6: {}
 
-  motion-v@1.7.3(@vueuse/core@14.1.0(vue@3.5.25(typescript@5.8.3)))(react@19.2.0)(vue@3.5.25(typescript@5.8.3)):
+  motion-v@1.7.5(@vueuse/core@14.1.0(vue@3.5.25(typescript@5.8.3)))(vue@3.5.25(typescript@5.8.3)):
     dependencies:
       '@vueuse/core': 14.1.0(vue@3.5.25(typescript@5.8.3))
-      framer-motion: 12.23.12(react@19.2.0)
       hey-listen: 1.0.8
-      motion-dom: 12.23.12
+      motion-dom: 12.23.23
       vue: 3.5.25(typescript@5.8.3)
-    transitivePeerDependencies:
-      - '@emotion/is-prop-valid'
-      - react
-      - react-dom
 
   mrmime@2.0.1: {}
 
@@ -15490,7 +15457,7 @@ snapshots:
       '@floating-ui/vue': 1.1.9(vue@3.5.25(typescript@5.8.3))
       '@internationalized/date': 3.10.1
       '@internationalized/number': 3.6.5
-      '@tanstack/vue-virtual': 3.13.13(vue@3.5.25(typescript@5.8.3))
+      '@tanstack/vue-virtual': 3.13.15(vue@3.5.25(typescript@5.8.3))
       '@vueuse/core': 12.8.2(typescript@5.8.3)
       '@vueuse/shared': 12.8.2(typescript@5.8.3)
       aria-hidden: 1.2.6
@@ -16265,7 +16232,7 @@ snapshots:
 
   type-fest@2.19.0: {}
 
-  type-fest@5.2.0:
+  type-fest@5.3.1:
     dependencies:
       tagged-tag: 1.0.0
 
@@ -17043,12 +17010,12 @@ snapshots:
     dependencies:
       zod: 3.25.76
 
-  zod-to-json-schema@3.25.0(zod@4.2.1):
+  zod-to-json-schema@3.25.0(zod@4.3.4):
     dependencies:
-      zod: 4.2.1
+      zod: 4.3.4
 
   zod@3.25.76: {}
 
-  zod@4.2.1: {}
+  zod@4.3.4: {}
 
   zwitch@2.0.4: {}
